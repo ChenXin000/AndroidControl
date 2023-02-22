@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/f_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="画质: 低(640P)" />
+
+        <TextView
+            android:id="@+id/b_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Bit率: 400000" />
+
+        <TextView
+            android:id="@+id/y_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="预览" />
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:orientation="horizontal">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/r_radioButton1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="fOnRadioButtonClicked"
+                    android:text="低(640P)" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="fOnRadioButtonClicked"
+                    android:text="中(960P)" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="fOnRadioButtonClicked"
+                    android:text="高(1080P)" />
+
+            </RadioGroup>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/r_radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="400000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="800000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="1500000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="2000000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="2500000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="4000000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="6000000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="8000000" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="bOnRadioButtonClicked"
+                    android:text="16000000" />
+
+            </RadioGroup>
+        </ScrollView>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <RadioButton
+                    android:id="@+id/r_radioButton13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:onClick="yOnRadioButtonClicked"
+                    android:text="预览" />
+
+                <RadioButton
+                    android:id="@+id/r_radioButton14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="yOnRadioButtonClicked"
+                    android:text="控制" />
+            </RadioGroup>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确 定" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/drawable/button_cancel.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/drawable/button_sure.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/drawable/dialogbackground.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/drawable/node.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/drawable/node_focus.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/drawable/text_click_color.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/drawable/transparent_dialog.xml" value="0.1775" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/accessibilitynode_desc.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/activity_help.xml" value="0.16875" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/add_keyword.xml" value="0.16875" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/advertise_desc.xml" value="0.16875" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/control_music_set.xml" value="0.16875" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/keyword_item.xml" value="0.16875" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/main_dialog.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/position_a.xml" value="0.16875" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/screen_lightness_set.xml" value="0.2" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/screen_lock_position.xml" value="0.2033514492753623" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/skipdesc_parent.xml" value="0.264" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/tis_dialog.xml" value="0.19655797101449277" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/view_massage.xml" value="0.10989583333333333" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/view_pac.xml" value="0.2033514492753623" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/view_select.xml" value="0.2033514492753623" />
+        <entry key="..\:/AndroidStudioProjects/AccessibilityTool-master1/app/src/main/res/layout/widget_a.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/drawable/button_cancel.xml" value="0.1695" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/drawable/button_sure.xml" value="0.1695" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/accessibilitynode_desc.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/activity_help.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/add_keyword.xml" value="0.264" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/advertise_desc.xml" value="0.2" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/control_music_set.xml" value="0.13072916666666667" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/keyword_item.xml" value="0.2" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/main_dialog.xml" value="0.2" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/position_a.xml" value="0.2" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/screen_lightness_set.xml" value="0.1" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/screen_lock_position.xml" value="0.1" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/skipdesc_parent.xml" value="0.1" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/view_massage.xml" value="0.2" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/view_pac.xml" value="0.1" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/view_select.xml" value="0.264" />
+        <entry key="..\:/Users/XC/Desktop/AccessibilityTool-master1/app/src/main/res/layout/widget_a.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

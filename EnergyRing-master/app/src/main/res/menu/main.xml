@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_model_preset"
+        android:icon="@drawable/ic_developer_mode"
+        android:title="@string/model_preset"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/rotate_auto_hide"
+        android:checkable="true"
+        android:title="@string/auto_hide_on_rotate" />
+
+    <item
+        android:id="@+id/fullscreen_auto_hide"
+        android:checkable="true"
+        android:title="@string/auto_hide_on_fullscreen" />
+    <item
+        android:id="@+id/auto_hide_in_power_save_mode"
+        android:checkable="true"
+        android:title="@string/auto_hide_in_power_saving_mode"/>
+    <item
+        android:id="@+id/menu_color_mode"
+        android:title="@string/color_mode" />
+    <item
+        android:id="@+id/menu_force_refresh"
+        android:title="@string/force_refresh" />
+
+    <item
+        android:id="@+id/menu_screen_off_remind"
+        android:title="@string/flash_light_on_screen_off" />
+
+</menu>

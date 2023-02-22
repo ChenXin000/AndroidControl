@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">EnergyRing</string>
+    <string name="how_to_hide_in_recent">How to hide in recent tasks?</string>
+    <string name="help_to_hide_in_recent">You can hide from the most recent task by pressing the return key to exit. \n for the background ability, first enter the latest task here and lock the card.</string>
+    <string name="i_know">I got it!</string>
+    <string name="pre_set">Presupposition</string>
+    <string name="ring_width">Line thickness</string>
+    <string name="size">Size</string>
+    <string name="position_of_vertical">Vertical position</string>
+    <string name="position_of_horizontal">Horizontal position</string>
+    <string name="model_preset">Preset model</string>
+    <string name="copy">Copy</string>
+    <string name="import_from_clipboard">Import from \nclipboard</string>
+    <string name="view_config">View \n(save)</string>
+    <string name="text_import">Import</string>
+    <string name="clipboard_content">Shear board content</string>
+    <string name="empty_in_clipboard">Clipboard is empty.</string>
+    <string name="about">About</string>
+    <string name="support">Support</string>
+    <string name="hint_preset_share">Welcome to share the configuration to the cool an comment area. The [view] button at the bottom can copy the configuration. The following models are not necessarily fully compatible, and can be fine tuned by yourself.</string>
+    <string name="config_data">Configuration data</string>
+    <string name="way_support">Support mode</string>
+    <string name="hint_wx_donate">Please use wechat to scan code after screen capture</string>
+    <string name="request_float_window_permission">Please open the suspended window permission</string>
+    <string name="author">Author</string>
+    <string name="no_browser_available">No browser available</string>
+    <string name="alipay_is_not_installed">Alipay is not installed.</string>
+    <string name="auto_hide_on_rotate">[screen orientation switch] auto hide</string>
+    <string name="auto_hide_on_fullscreen">[full screen] auto hide</string>
+    <string name="multi_color_setting">Color setting (long press to delete)</string>
+    <string name="multi_color_setting_charging">Color setting while charging (long press to delete)</string>
+    <string name="single_color_setting">Color setting</string>
+    <string name="ring_bg_color">Background color</string>
+    <string name="rotate_speed_when_charging">Speed [when charging]</string>
+    <string name="rotate_speed_not_charging">Speed [not charged, left most not rotating]</string>
+    <string name="save_current_config">Save current configuration</string>
+    <string name="welcome_to_share_on_comment_area">Welcome to the comments section</string>
+    <string name="display_only_this_model">Display this model only</string>
+    <string name="config_title">show heading</string>
+    <string name="edit">Edit</string>
+    <string name="edit_local_config">Local configuration editing</string>
+    <string name="delete_selected">Delete selected</string>
+    <string name="type_ring">circular</string>
+    <string name="type_pill">pill</string>
+    <string name="type_double_ring">Double hole</string>
+    <string name="config_import_and_save">Import and save</string>
+    <string name="spacing">Spacing</string>
+    <string name="main_color">Main color</string>
+    <string name="height">Height</string>
+    <string name="double_ring_function">Ring function</string>
+    <string name="battery_direction_format">Battery direction: %s</string>
+    <string name="feature_of_secondary_ring">The second ring function is %s</string>
+    <string name="close">Close</string>
+    <string name="foreground_service_title">Energy ring front desk service (long press to close notice)</string>
+    <string name="color_mode">Color mode</string>
+    <string name="not_support_current_mode">The current shape is not supported at this time</string>
+    <string name="force_refresh">Force refresh </string>
+    <string name="label_notification_service">Energy ring notification service</string>
+    <string name="desc_acc">After opening, you can not display the floating window notice in the notification bar</string>
+    <string name="setting_screen_off_remind">Screen-off reminder settings</string>
+    <string name="prompt">Tips</string>
+    <string name="preview">Preview</string>
+    <string name="flash_light_on_screen_off">Screen-off reminder [experiment]</string>
+    <string name="hint_color_pick_dialog">Slide left to customize color and transparency</string>
+    <string name="open_link">Open link</string>
+    <string name="please_open_notification_service">Please turn on the notification service</string>
+    <string name="jump_failed_please_open_notification_service_by_manual">Jump failed. Please manually enter to set the notification permission</string>
+    <string name="double_click_to_exit">Double click to exit</string>
+    <string name="do_not_disturb_time">Do not disturb time</string>
+    <string name="do_not_disturb_time_s">Don\'t disturb period %s</string>
+    <string name="flash_ring_hint2">Face unlocking may not work when double clicking on the bright screen. Only mainstream chat software is supported for the time being</string>
+    <string name="flash_ring_hint1">When there is a new notice when the screen is turned off, the breathing light will flash 5 seconds later. Double click to light up the screen</string>
+    <string name="about_msg">EnergyRing \n- Auto hide on fullscreen  (with the status bar) \n- Auto hide on horizontal-screen  \n- Charging animation \n- Screen-off notification reminder \n- not affected by resolution (2k / 1080p) \nIt will appear "freezing" at some times. Changing the attribute ring will not change. You can force refresh or switch shapes in the menu. \n[this app is free of charge]</string>
+    <string name="pick_color">Pick color</string>
+    <string name="enable_service">Enable Service</string>
+    <string name="import_failed">Import failed</string>
+    <string name="import_config_hint">Format error, please keep only the contents in {…}</string>
+    <string name="screenoff_reminder_hint">Screen-off Reminder\n It\'s need to notification permission. When the breathing light flashes, double-click to light up the screen. \n When you double-click the bright screen, the face unlock may not work.</string>
+    <string name="auto_hide_in_power_saving_mode">Auto hide in power-saving-mode</string>
+
+    <string-array name="way_of_support">
+        <item>Alipay</item>
+        <item>WeChat</item>
+        <item>At GitHub star warehouse</item>
+    </string-array>
+    <string-array name="ring_features">
+        <item>Memory usage</item>
+    </string-array>
+    <string-array name="double_ring_battery_direction">
+        <item>left</item>
+        <item>right</item>
+    </string-array>
+    <string-array name="modes_of_color">
+        <item>Solid color gradient</item>
+        <item>Solid color</item>
+        <item>Uniform gradient</item>
+    </string-array>
+
+</resources>

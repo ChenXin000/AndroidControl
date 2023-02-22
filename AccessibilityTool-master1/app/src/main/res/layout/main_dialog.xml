@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="end"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0">
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:background="@drawable/tool_icon"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="@string/simple_name"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_weight="0"
+        android:src="@color/divideLine" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_weight="0"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:paddingStart="0dp"
+            android:paddingEnd="0dp">
+
+            <LinearLayout
+                android:id="@+id/click_skip_advertising"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:foreground="?android:attr/listChoiceBackgroundIndicator"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="跳过启动广告"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|left"
+                    android:background="@drawable/right_arrow" />
+
+                <Switch
+                    android:id="@+id/switch_skip_advertising"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/divideLine" />
+
+            <LinearLayout
+                android:id="@+id/click_music_control"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="音量键上下曲"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|left"
+                    android:background="@drawable/right_arrow" />
+
+                <Switch
+                    android:id="@+id/switch_music_control"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/divideLine" />
+
+            <LinearLayout
+                android:id="@+id/click_record_message"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="记录通知消息"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|left"
+                    android:background="@drawable/right_arrow" />
+
+                <Switch
+                    android:id="@+id/switch_record_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/divideLine" />
+
+            <LinearLayout
+                android:id="@+id/click_screen_lightness"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="调节屏幕亮度"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView19"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|left"
+                    android:background="@drawable/right_arrow" />
+
+                <Switch
+                    android:id="@+id/switch_screen_lightness"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/divideLine" />
+
+            <LinearLayout
+                android:id="@+id/click_screen_lock"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="0dp"
+                android:clickable="true"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="双击屏幕锁屏"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/textColor"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/imageView20"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center|left"
+                    android:background="@drawable/right_arrow" />
+
+                <Switch
+                    android:id="@+id/switch_screen_lock"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:src="@color/divideLine" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0">
+
+        <Button
+            android:id="@+id/main_dialog_sure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/button_sure"
+            android:text="确 定"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/main_dialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/button_cancel"
+            android:text="取 消"
+            android:textColor="@color/textColor"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_dialog_sure" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="divideLine">#25000000</color>
+    <color name="textColor">#FF6A6A6A</color>
+    <color name="TitleColor">#FF00BCD4</color>
+    <color name="tsColor">#FF9A9A9A</color>
+    <color name="backColor">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+</resources>
